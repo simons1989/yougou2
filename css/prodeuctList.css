@@ -1,0 +1,114 @@
+#productList_body {
+  background: #fff;
+  color: #999; }
+
+#chosen {
+  height: 48px;
+  font: 12px/48px "";
+  color: #666; }
+  #chosen a:hover {
+    color: red; }
+  #chosen p {
+    float: left; }
+  #chosen a {
+    float: left; }
+
+#filter .filter {
+  width: 100%;
+  border: 1px solid #e3e3e3; }
+  #filter .filter .line1 {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ccc; }
+    #filter .filter .line1 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 70px;
+      background: #f6f6f6;
+      font: 12px/70px "";
+      text-indent: 55px; }
+  #filter .filter .line2 {
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px dotted #ccc; }
+    #filter .filter .line2 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 68px;
+      background: #f6f6f6;
+      font: 12px/30px "";
+      text-indent: 32px; }
+  #filter .filter .line3 {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px dotted #ccc; }
+    #filter .filter .line3 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 35px;
+      background: #f6f6f6;
+      font: 12px/35px "";
+      text-indent: 55px; }
+  #filter .filter .line4 {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px dotted #ccc; }
+    #filter .filter .line4 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 35px;
+      background: #f6f6f6;
+      font: 12px/35px "";
+      text-indent: 55px; }
+  #filter .filter .line5 {
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px dotted #ccc; }
+    #filter .filter .line5 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 37px;
+      background: #f6f6f6;
+      font: 12px/37px "";
+      text-indent: 32px; }
+
+#sort {
+  height: 34px; }
+  #sort .sort {
+    height: 34px;
+    margin-top: 10px;
+    border: 1px solid #d7d3d4;
+    background: #f5f5f5;
+    padding: 5px 17px 5px 23px;
+    box-sizing: border-box; }
+    #sort .sort span {
+      display: block;
+      float: left;
+      font: 12px/24px "";
+      width: 70px; }
+    #sort .sort .sort_cur {
+      background: red; }
+      #sort .sort .sort_cur a {
+        color: #fff; }
+    #sort .sort ul li {
+      float: left;
+      width: 50px;
+      height: 23px;
+      background: #ddd;
+      font: 12px/23px "";
+      margin-left: 9px;
+      text-align: center; }
+      #sort .sort ul li a:hover {
+        color: red; }
+    #sort .sort .price .min_price {
+      background: #fff;
+      width: 37px;
+      height: 21px;
+      border: 1px solid #ccc; }
+
+/*# sourceMappingURL=prodeuctList.css.map */

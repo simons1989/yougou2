@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/productList.css">
+    <link rel="stylesheet" href="font_mobile/iconfont.css">
+    <script src="js/jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/productList.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/common.js"></script>
+
+</head>
+
+<body id="productList_body">
+<div id="smallBannerShow">
+
+    <div class="margin">
+        <a href="#" class="topBanner">
+
+        </a>
+    </div>
+
+
+</div>
+<header>
+    <div class="margin">
+        <div class="ygmall"><a href="#">时尚商城</a></div>
+        <div class="oversea"><a href="#">海 外 购</a></div>
+        <div class="phone">
+            <a href="#" class="phone_text"><i class="iconfont icon-shouji"></i>手机优购<i class="iconfont icon-sanjiao"></i></a>
+
+            <div class="phone_con">
+                <p class="clearfix">
+                        <span class="qr_code1">
+
+                        </span>
+                    <span class="fl">
+                            <a class="aapl" href="#" target="_blank"></a>
+                            <a class="android" href="#" target="_blank"></a>
+                        </span>
+                    <span class="qr_code2">
+
+                        </span>
+                </p>
+
+                <p class="con_text">
+                    <span class="fl1">下载安装 <strong>优购客户端</strong></span>
+                    <span class="fr">百丽在线服务</span>
+                </p>
+            </div>
+        </div>
+        <div class="hr">
+            <div class="about_user">
+                <div class="login"><a rel="nofollow" href="signIn.html">登录</a></div>
+                <div class="register"><a rel="nofollow" href="register.html">注册</a></div>
+            </div>
+            <div class="my">
+                <a href="#" class="a1">我的优购<i class="iconfont icon-sanjiao"></i></a>
+                <ul class="info_con">
+                    <li><a href="#">我的收藏</a></li>
+                    <li id="commentcount"></li>
+                    <li id="top_msg"></li>
+                </ul>
+            </div>
+            <div class="my_order"><a href="#" rel="nofollow">我的订单</a></div>
+            <div class="notice">
+                <span class="notice_text">公告<i class="iconfont icon-sanjiao"></i></span>
+                <ul class="notice_con">
+
+                    <li class="Red">
+                        <a target="_blank" href="#">限时福利免费领</a>
+                    </li>
+
+                    <li >
+                        <a target="_blank" href="#">关于跨境商品征税新政策调整</a>
+                    </li>
+
+                    <li >
+                        <a target="_blank" href="#">提醒会员谨防诈骗电话</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="more">
+                <a href="javascript:;" class='more_text'>更多<i class="iconfont icon-sanjiao"></i></a>
+                <ul class="more_con">
+                    <li><a  href="#">收藏优购</a></li>
+                    <li><a href="#">帮助</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</header>
+<div id="tab">
+    <div class="margin">
+        <div class="tab_t">
+            <a href="#" class="logo"></a>
+            <div class="tab_t_m">
+                <form action="">
+
+                    <div class="search">
+                        <input type="text" id="keyword" name="keyword" maxlength="80" class="search flc"/>
+
+
+                        <div class="search_btn"><i class="iconfont icon-fangdajing"></i>　搜索</div>
+                    </div>
+
+                </form>
+                <div class="search_hot">
+                    <ul>
+                        <li>运动17年新品</li>
+                        <li>丨</li>
+                        <li>积分换券</li>
+                        <li>丨</li>
+                        <li>男女鞋上新</li>
+                        <li>丨</li>
+                        <li>小白鞋</li>
+                        <li>丨</li>
+                        <li>耐克</li>
+                        <li>丨</li>
+                        <li>T恤</li>
+                        <li>丨</li>
+                        <li>专柜同款</li>
+                        <li>丨</li>
+                        <li>皮肤衣</li>
+                        <li>丨</li>
+                        <li>2件99起</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab_t_r">
+                <div class="my_cart">
+
+                    <div class="zs_center fl">
+
+                        <a href="cart.html">
+                            <div id="paymoney" class="text fl"><i class="iconfont icon-gouwuche"></i>　购物车(<span id="pordcount">0</span>)件　<i class="iconfont icon-sanjiao"></i></div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div id="shoppingcartContainer"></div>
+
+
+                <div class="company_name">百丽国际旗下购物网站</div>
+            </div>
+
+
+        </div>
+
+        <div class="tab_b">
+            <div class="allGoods">全部商品分类</div>
+            <ul class="nav">
+                <li><a href="#">运动馆</a></li>
+                <li><a href="#">户外馆</a></li>
+                <li><a href="#">鞋靴馆</a></li>
+                <li><a href="#">服装馆</a></li>
+                <li><a href="#">母婴童</a></li>
+                <li><a href="#">海外购</a></li>
+                <li class="te"><a href="#">领券中心</a></li>
+
+            </ul>
+            <div class="sales">
+                <a href="#">秒杀</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="chosen">
+    <div class="margin">
+        <p>您已选择：</p><a href="#">全部分类</a>
+    </div>
+</div>
+<div id="filter">
+    <div class="margin">
+        <div class="filter">
+            <div class="line1">
+                <span>品牌</span>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+                <a href="#"><img src="images/womanbrand1.jpg" alt=""></a>
+            </div>
+            <div class="line2">
+                <span>相关分类</span>
+                <ul>
+                    <li>女鞋</li>
+                    <li>女鞋</li>
+                    <li>女鞋</li>
+                    <li>男鞋</li>
+                    <li>运动鞋</li>
+                    <li>男装</li>
+                    <li>童鞋</li>
+                    <li>女鞋</li>
+                    <li>女鞋</li>
+                    <li>女鞋</li>
+                    <li>男鞋</li>
+
+                </ul>
+            </div>
+            <div class="line3">
+                <span>性别</span>
+                <ul>
+                    <li>男</li>
+                    <li>女</li>
+                    <li>通用</li>
+                </ul>
+            </div>
+            <div class="line4">
+                <span>价格</span>
+                <ul>
+                    <li>1-50</li>
+                    <li>50-100</li>
+                    <li>100-200</li>
+                    <li>201-300</li>
+                    <li>301-400</li>
+                    <li>401-500</li>
+                </ul>
+            </div>
+            <div class="line5">
+                <span>更多筛选</span>
+                <ul>
+                    <li>尺码</li>
+                    <li>颜色</li>
+                    <li>季节</li>
+                    <li>风格</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="sort">
+    <div class="margin sort">
+        <span>排列方式：</span>
+        <ul>
+            <li class="sort_cur"><a href="#">推荐</a></li>
+            <li><a href="#">热销</a></li>
+            <li><a href="#">新品</a></li>
+            <li><a href="#">价格 <i class="iconfont icon-open-downwards"></i></a></li>
+            <li><a href="#">折扣 <i class="iconfont icon-open-downwards"></i></a></li>
+        </ul>
+        <div class="price">
+            <div class="min_price">
+                    <i>￥</i>
+                <input type="text" class="min">
+            </div>
+            <span class="symbol">-</span>
+            <div class="max_price">
+                <i>￥</i>
+                <input type="text" class="max">
+            </div>
+        </div>
+        <div class="filter_check">
+            <i></i>
+            <span>17年新品</span>
+            <i></i>
+            <span>专柜同款</span>
+        </div>
+        <div class="find_num">
+            总共找到 <i></i>个商品
+        </div>
+        <div class="fy">
+           <i>1</i>/ <i></i>
+        </div>
+        <div class="page">
+            <span><i class="iconfont icon-arrfill_d"></i></span>
+            <a href="javascript:;">下一页 <i class="iconfont icon-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div id="product_main">
+    <div class="margin">
+        <ul class="pro_list clear">
+
+        </ul>
+        <div class="page2">
+            <a href="javascript:;" class="prev">&lt;&lt;上一页</a>
+            <span id="nums">
+
+            </span>
+            <a href="javascript:;" class="next">下一页>></a>
+            <div class="total">共<i></i>页</div>
+        </div>
+        <div class="re_search">
+            <input type="text">
+            <input type="submit" value="重新搜索">
+        </div>
+    </div>
+</div>
+
+
+<div id="guide">
+    <div class="margin">
+        <div class="title">
+            优购导购
+        </div>
+        <div class="guide">
+            <div class="la"></div>
+            <div class="guidebrandshow">
+                <ul class="move1">
+
+                </ul>
+            </div>
+
+            <div class="ra"></div>
+        </div>
+
+        <ul class="buy_link">
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dd><a href="#">时尚运动</a></dd>
+                    <dt>
+                        <a href="#">跑步鞋</a>
+                        <a href="#">板鞋</a>
+                        <a href="#">篮球鞋</a>
+                        <a href="#">T恤</a>
+                        <a href="#">POLO衫</a>
+                        <a href="#">短裤</a>
+                    </dt>
+                    <a href="#" class="more">更多 >></a>
+                </dl>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+
+<div id="footer">
+    <div class="margin">
+        <div class="hd">
+            <a href="#"><i>正品</i>保证</a>
+            <a href="#"><i>10天</i>退换货</a>
+            <a href="#"><i>10天调价</i>补差额</a>
+            <a href="#"><i>7X24小时</i>在线客服</a>
+        </div>
+        <div class="hb">
+            <dl>
+                <dt>新手帮助</dt>
+                <dd><a href="#">交易条款协议</a></dd>
+                <dd><a href="#">注册新用户</a></dd>
+                <dd><a href="#">会员积分详情</a></dd>
+            </dl>
+            <dl>
+                <dt>新手帮助</dt>
+                <dd><a href="#">交易条款协议</a></dd>
+                <dd><a href="#">注册新用户</a></dd>
+                <dd><a href="#">会员积分详情</a></dd>
+            </dl>
+            <dl>
+                <dt>新手帮助</dt>
+                <dd><a href="#">交易条款协议</a></dd>
+                <dd><a href="#">注册新用户</a></dd>
+                <dd><a href="#">会员积分详情</a></dd>
+            </dl>
+            <dl>
+                <dt>新手帮助</dt>
+                <dd><a href="#">交易条款协议</a></dd>
+                <dd><a href="#">注册新用户</a></dd>
+                <dd><a href="#">会员积分详情</a></dd>
+            </dl>
+            <dl>
+                <dt>新手帮助</dt>
+                <dd><a href="#">交易条款协议</a></dd>
+                <dd><a href="#">注册新用户</a></dd>
+                <dd><a href="#">会员积分详情</a></dd>
+            </dl>
+            <dl class="help">
+                <dt>优购客服</dt>
+                <dd><span><a href="#">　　 在线咨询</a></span></dd>
+                <dd>Email <em>service@yougou.com</em></dd>
+                <dd>分享购QQ群<em>518411158</em></dd>
+                <dd>微信客服 <em>百丽在线服务</em></dd>
+            </dl>
+            <dl class="qr_code">
+
+                <dd class="app"><a href="#"></a></dd>
+                <dd class="weixin"></dd>
+            </dl>
+        </div>
+    </div>
+</div>
+<div id="foot_info">
+    <div class="margin">
+        <div class="logo">
+            <a href="#">
+                <img src="images/endlogo.gif" alt="">
+            </a>
+        </div>
+        <div class="foot_r">
+            <div class="foot_r_t">
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+                丨
+                <a href="#">关于优购</a>
+
+            </div>
+            <div class="foot_r_c">
+                Copyright © 2011-2016 Yougou Technology Co., Ltd.
+                <a href="#">粤ICP备09070608号-4</a>
+                增值电信业务经营许可证：
+                <a href="#">粤 B2-20090203</a>
+                深公网安备：4403101910665
+                <a href="#" class="safe">　　粤公网安备 44030502000017号</a>
+            </div>
+
+            <div class="foot_r_b">
+                <a href="#"><img src="images/sm_124x47.png" alt=""></a>
+                <a href="#"><img src="images/ebs-logo.jpg" alt=""></a>
+                <a href="#"><img src="images/beian1.png" alt=""></a>
+                <a href="#"><img src="images/beian2.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

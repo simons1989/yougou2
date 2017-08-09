@@ -1,0 +1,345 @@
+#productList_body {
+  background: #fff;
+  color: #999; }
+
+#chosen {
+  height: 48px;
+  font: 12px/48px "";
+  color: #666; }
+  #chosen a:hover {
+    color: red; }
+  #chosen p {
+    float: left; }
+  #chosen a {
+    float: left; }
+
+#filter .filter {
+  width: 100%;
+  border: 1px solid #e3e3e3; }
+  #filter .filter .line1 {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ccc; }
+    #filter .filter .line1 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 70px;
+      background: #f6f6f6;
+      font: 12px/70px "";
+      text-indent: 55px;
+      margin-right: 10px; }
+    #filter .filter .line1 a {
+      width: 85px;
+      height: 40px;
+      display: block;
+      float: left;
+      margin-top: 13px;
+      border-right: 1px solid #eee; }
+  #filter .filter .line2 {
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px dotted #ccc;
+    overflow: hidden; }
+    #filter .filter .line2 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 68px;
+      background: #f6f6f6;
+      font: 12px/30px "";
+      text-indent: 32px; }
+    #filter .filter .line2 ul {
+      float: left;
+      width: 1000px;
+      height: 68px;
+      margin-left: 10px; }
+      #filter .filter .line2 ul li {
+        float: left;
+        width: 142px;
+        font: 12px/30px ""; }
+  #filter .filter .line3 {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px dotted #ccc; }
+    #filter .filter .line3 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 35px;
+      background: #f6f6f6;
+      font: 12px/35px "";
+      text-indent: 55px; }
+    #filter .filter .line3 ul {
+      float: left;
+      margin-left: 10px;
+      width: 1000px;
+      height: 35px; }
+      #filter .filter .line3 ul li {
+        float: left;
+        width: 142px;
+        font: 12px/30px ""; }
+  #filter .filter .line4 {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px dotted #ccc; }
+    #filter .filter .line4 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 35px;
+      background: #f6f6f6;
+      font: 12px/35px "";
+      text-indent: 55px; }
+    #filter .filter .line4 ul {
+      float: left;
+      margin-left: 10px;
+      width: 1000px;
+      height: 35px; }
+      #filter .filter .line4 ul li {
+        float: left;
+        width: 142px;
+        font: 12px/30px ""; }
+  #filter .filter .line5 {
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px dotted #ccc; }
+    #filter .filter .line5 span {
+      display: block;
+      float: left;
+      width: 99px;
+      height: 37px;
+      background: #f6f6f6;
+      font: 12px/37px "";
+      text-indent: 32px; }
+    #filter .filter .line5 ul {
+      float: left;
+      margin-left: 10px;
+      width: 1000px;
+      height: 35px; }
+      #filter .filter .line5 ul li {
+        float: left;
+        width: 142px;
+        font: 12px/30px ""; }
+
+#sort {
+  height: 34px; }
+  #sort .sort {
+    height: 34px;
+    margin-top: 10px;
+    border: 1px solid #d7d3d4;
+    background: #f5f5f5;
+    padding: 5px 17px 5px 23px;
+    box-sizing: border-box; }
+    #sort .sort span {
+      display: block;
+      float: left;
+      font: 12px/24px "";
+      width: 70px; }
+    #sort .sort .sort_cur {
+      background: red; }
+      #sort .sort .sort_cur a {
+        color: #fff; }
+    #sort .sort ul li {
+      float: left;
+      width: 50px;
+      height: 23px;
+      background: #ddd;
+      font: 12px/23px "";
+      margin-left: 9px;
+      text-align: center; }
+      #sort .sort ul li a:hover {
+        color: red; }
+    #sort .sort .price {
+      float: left;
+      margin-left: 15px; }
+      #sort .sort .price .min_price {
+        background: #fff;
+        width: 37px;
+        height: 21px;
+        border: 1px solid #ccc;
+        float: left; }
+        #sort .sort .price .min_price i {
+          display: block;
+          float: left;
+          font: 9px/21px ""; }
+        #sort .sort .price .min_price .min {
+          width: 25px;
+          height: 21px;
+          border: none;
+          display: block;
+          float: left; }
+      #sort .sort .price .symbol {
+        width: 8px;
+        text-align: center; }
+      #sort .sort .price .max_price {
+        background: #fff;
+        width: 37px;
+        height: 21px;
+        border: 1px solid #ccc;
+        float: left; }
+        #sort .sort .price .max_price i {
+          display: block;
+          float: left;
+          font: 9px/21px ""; }
+        #sort .sort .price .max_price .max {
+          width: 25px;
+          height: 21px;
+          border: none;
+          display: block;
+          float: left; }
+    #sort .sort .filter_check {
+      margin-left: 20px;
+      float: left; }
+      #sort .sort .filter_check i {
+        float: left;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #c5c5c5;
+        margin-top: 3px;
+        background: #fff; }
+      #sort .sort .filter_check span {
+        text-indent: 4px;
+        width: 63px;
+        font: 12px/22px "";
+        color: red;
+        float: left; }
+    #sort .sort .find_num {
+      float: left;
+      margin-left: 234px;
+      font: 12px/22px ""; }
+      #sort .sort .find_num i {
+        color: red; }
+    #sort .sort .fy {
+      margin-left: 24px;
+      float: left; }
+      #sort .sort .fy i {
+        font: 12px/22px ""; }
+    #sort .sort .page {
+      float: right; }
+      #sort .sort .page span {
+        display: block;
+        width: 22px;
+        height: 20px;
+        border: 1px solid #ddd;
+        background: #fff;
+        font: 12px/22px "";
+        text-align: center;
+        float: left;
+        cursor: pointer; }
+        #sort .sort .page span:hover {
+          color: red; }
+      #sort .sort .page a {
+        font: 12px/22px "";
+        width: 62px;
+        height: 20px;
+        border: 1px solid #ddd;
+        display: block;
+        float: left;
+        background: #fff;
+        margin-left: 5px;
+        text-align: center; }
+        #sort .sort .page a .iconfont {
+          color: red; }
+
+#product_main .pro_list li {
+  margin-top: 14px;
+  float: left;
+  margin-right: 6px;
+  width: 232px;
+  height: 312px; }
+  #product_main .pro_list li img {
+    display: block;
+    width: 230px;
+    height: 238px;
+    border: 1px solid #d1d3d4; }
+  #product_main .pro_list li div {
+    width: 232px;
+    height: 16px;
+    background: #f0a1a1;
+    font: 12px/16px "";
+    text-indent: 6px;
+    color: #fff; }
+  #product_main .pro_list li p {
+    width: 232px;
+    height: 44px;
+    font: 12px/22px "";
+    padding-left: 6px;
+    box-sizing: border-box; }
+    #product_main .pro_list li p:hover {
+      color: red; }
+  #product_main .pro_list li span {
+    display: block;
+    color: red;
+    height: 13px;
+    width: 77px;
+    text-indent: 6px; }
+    #product_main .pro_list li span i {
+      display: block;
+      float: right;
+      color: #aaa;
+      text-decoration: line-through; }
+#product_main .page2 {
+  padding-top: 76px;
+  height: 85px;
+  width: 100%; }
+  #product_main .page2 #nums {
+    display: block;
+    float: left;
+    height: 39px;
+    border: 1px solid #e5e5e5;
+    border-right: none; }
+    #product_main .page2 #nums a {
+      width: 37px;
+      height: 39px;
+      border-right: 1px solid #e5e5e5;
+      display: block;
+      float: left;
+      text-align: center;
+      font: 12px/38px ""; }
+      #product_main .page2 #nums a:hover {
+        color: red; }
+    #product_main .page2 #nums .cur {
+      background: #efefef; }
+  #product_main .page2 .next {
+    display: block;
+    float: left;
+    width: 75px;
+    height: 39px;
+    border: 1px solid #e5e5e5;
+    font: 12px/38px "";
+    text-align: center; }
+    #product_main .page2 .next:hover {
+      color: red; }
+  #product_main .page2 .prev {
+    margin-left: 600px;
+    display: block;
+    float: left;
+    width: 75px;
+    height: 39px;
+    border: 1px solid #e5e5e5;
+    font: 12px/38px "";
+    text-align: center; }
+    #product_main .page2 .prev:hover {
+      color: red; }
+  #product_main .page2 .total {
+    display: block;
+    font: 12px/38px ""; }
+#product_main .re_search {
+  margin-left: 359px;
+  width: 466px;
+  height: 26px; }
+  #product_main .re_search input:first-child {
+    float: left;
+    width: 358px;
+    height: 26px;
+    border: 1px solid #e0e0e0; }
+  #product_main .re_search input:last-child {
+    float: left;
+    border: none;
+    background: #f77333;
+    color: #fff;
+    width: 99px;
+    height: 28px; }
+
+/*# sourceMappingURL=productList.css.map */

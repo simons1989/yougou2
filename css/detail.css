@@ -1,0 +1,200 @@
+#your_position {
+  height: 27px;
+  font: 12px/27px ""; }
+  #your_position a {
+    color: blue; }
+    #your_position a:hover {
+      color: red; }
+
+#detail_body {
+  background: #fff; }
+
+#goods {
+  height: 564px; }
+  #goods .goods_pic {
+    position: relative;
+    float: left; }
+    #goods .goods_pic .content {
+      position: relative;
+      height: 480px;
+      width: 480px;
+      border: 1px solid #eaeaea;
+      margin-bottom: 16px; }
+      #goods .goods_pic .content img {
+        width: 480px;
+        height: 480px;
+        position: absolute;
+        left: 0;
+        top: 0; }
+      #goods .goods_pic .content .zoom {
+        width: 226px;
+        height: 226px;
+        background: #eaeaea;
+        opacity: 0.5;
+        position: absolute;
+        display: none; }
+    #goods .goods_pic .zoom_show {
+      overflow: hidden;
+      position: absolute;
+      width: 480px;
+      height: 480px;
+      display: none;
+      left: 492px;
+      top: 0px;
+      border: 1px solid #000; }
+      #goods .goods_pic .zoom_show img {
+        display: block;
+        position: absolute;
+        width: 1019px;
+        height: 1019px; }
+    #goods .goods_pic .pic_slide {
+      width: 482px;
+      height: 66px;
+      display: flex;
+      justify-content: space-between; }
+      #goods .goods_pic .pic_slide img {
+        width: 64px;
+        height: 64px;
+        border: 1px solid #ddd;
+        display: block;
+        float: left; }
+  #goods .goods_middle {
+    float: left;
+    margin-left: 14px;
+    width: 493px;
+    height: 564px; }
+    #goods .goods_middle .title {
+      font: 700 16px/28px ""; }
+    #goods .goods_middle .more {
+      font: 12px/24px "";
+      text-decoration: underline; }
+      #goods .goods_middle .more a {
+        color: blue; }
+        #goods .goods_middle .more a:hover {
+          color: red; }
+    #goods .goods_middle .price {
+      margin-top: 27px;
+      height: 27px; }
+      #goods .goods_middle .price span {
+        font: 700 26px/26px "";
+        color: red; }
+      #goods .goods_middle .price i {
+        font: 12px/26px "";
+        color: #b1b1aa;
+        text-decoration: line-through; }
+    #goods .goods_middle .whatever {
+      height: 17px;
+      margin-top: 38px;
+      width: 100%; }
+      #goods .goods_middle .whatever .limit {
+        float: left;
+        width: 70px;
+        height: 17px;
+        background: red;
+        color: #fff;
+        font: 12px/17px "";
+        text-align: center; }
+      #goods .goods_middle .whatever #colockbox1 {
+        float: left;
+        width: 70px;
+        height: 17px;
+        font: 12px/17px "";
+        width: 180px; }
+      #goods .goods_middle .whatever .limit_a {
+        display: block;
+        float: left;
+        color: blue;
+        font: 12px/17px "";
+        width: 90px; }
+        #goods .goods_middle .whatever .limit_a:hover {
+          color: red; }
+    #goods .goods_middle .score {
+      font: 12px/25px "";
+      margin-top: 28px; }
+      #goods .goods_middle .score .icon-pingfenxingji {
+        color: yellow; }
+      #goods .goods_middle .score .contact {
+        margin-left: 110px; }
+        #goods .goods_middle .score .contact .iconfont {
+          color: red; }
+    #goods .goods_middle .filter {
+      height: 236px;
+      width: 100%;
+      background: #f8f8f8;
+      margin-top: 10px;
+      box-sizing: border-box;
+      padding: 20px 5px 0px 10px; }
+      #goods .goods_middle .filter .color1 {
+        height: 42px; }
+        #goods .goods_middle .filter .color1 img {
+          border: 1px solid #ddd; }
+        #goods .goods_middle .filter .color1 .cur {
+          border-color: red; }
+      #goods .goods_middle .filter .size1 {
+        margin-top: 15px;
+        height: 20px; }
+        #goods .goods_middle .filter .size1 i {
+          float: left; }
+        #goods .goods_middle .filter .size1 span {
+          display: block;
+          float: left;
+          width: 33px;
+          height: 20px;
+          border: 1px solid #ddd;
+          background: #fff;
+          text-align: center;
+          font: 12px/20px "";
+          margin-left: 14px;
+          cursor: pointer; }
+          #goods .goods_middle .filter .size1 span:hover {
+            color: red;
+            border-color: red; }
+      #goods .goods_middle .filter .numb {
+        height: 20px;
+        margin-top: 40px;
+        font: 12px/20px ""; }
+        #goods .goods_middle .filter .numb span {
+          float: left; }
+        #goods .goods_middle .filter .numb em {
+          float: left;
+          color: red; }
+        #goods .goods_middle .filter .numb .num_con {
+          float: left; }
+          #goods .goods_middle .filter .numb .num_con i {
+            width: 10px;
+            height: 10px;
+            border: 1px solid #ddd;
+            background: #fff;
+            float: left;
+            margin-top: 4px;
+            margin-left: 5px;
+            margin-right: 5px;
+            cursor: pointer; }
+          #goods .goods_middle .filter .numb .num_con i:first-child {
+            background: url("../images/minus.png") no-repeat center; }
+          #goods .goods_middle .filter .numb .num_con i:last-child {
+            background: url("../images/plus.png") no-repeat center; }
+          #goods .goods_middle .filter .numb .num_con input {
+            margin-left: 5px;
+            width: 24px;
+            height: 18px;
+            border: 1px solid #ddd;
+            float: left;
+            text-align: center; }
+      #goods .goods_middle .filter .btn {
+        margin-top: 20px; }
+        #goods .goods_middle .filter .btn input {
+          width: 123px;
+          height: 36px;
+          border: 1px solid red;
+          text-align: center;
+          font: 16px/36px "";
+          cursor: pointer; }
+        #goods .goods_middle .filter .btn input:first-child {
+          background: #fff;
+          color: red; }
+        #goods .goods_middle .filter .btn input:last-child {
+          background: red;
+          color: #fff; }
+
+/*# sourceMappingURL=detail.css.map */

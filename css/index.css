@@ -1,0 +1,1381 @@
+body {
+  background: #f8f8f8; }
+
+.margin {
+  margin: 0 auto;
+  width: 1190px; }
+
+#smallBannerShow {
+  height: 45px;
+  position: relative;
+  background: url(../images/topbanner.jpg) center; }
+  #smallBannerShow .topBanner {
+    height: 45px;
+    display: block; }
+
+header {
+  height: 30px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e3e3e5; }
+  header .ygmall {
+    width: 98px;
+    height: 31px;
+    float: left;
+    font: 14px/30px "";
+    text-align: center;
+    background: #fff; }
+    header .ygmall a:hover {
+      color: red; }
+  header .oversea {
+    width: 98px;
+    height: 30px;
+    float: left;
+    margin-left: 2px;
+    background: #b90000;
+    font: 700 14px/30px "";
+    text-align: center; }
+    header .oversea a {
+      color: #fff; }
+  header .phone {
+    width: 100px;
+    height: 30px;
+    border-left: 1px solid #e3e3e5;
+    border-right: 1px solid #e3e3e5;
+    text-align: center;
+    font: 14px/30px "";
+    float: left;
+    position: relative; }
+    header .phone .icon-shouji {
+      color: red; }
+    header .phone .icon-sanjiao {
+      color: #a4a4a3; }
+    header .phone .phone_con {
+      display: none;
+      width: 370px;
+      height: 168px;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      top: 30px;
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-top: none;
+      box-sizing: border-box;
+      padding: 22px; }
+      header .phone .phone_con .qr_code1 {
+        display: block;
+        width: 93px;
+        height: 99px;
+        float: left;
+        background: url("../images/qrCode1.png") no-repeat center; }
+      header .phone .phone_con .fl {
+        display: block;
+        width: 116px;
+        height: 76px;
+        float: left;
+        padding: 8px 0;
+        box-sizing: border-box;
+        margin: 0 10px; }
+        header .phone .phone_con .fl .aapl {
+          display: block;
+          width: 116px;
+          height: 34px;
+          background: url("../images/aapl.png");
+          margin-bottom: 8px; }
+          header .phone .phone_con .fl .aapl:hover {
+            opacity: 0.7; }
+        header .phone .phone_con .fl .android {
+          display: block;
+          width: 116px;
+          height: 36px;
+          background: url("../images/android.png"); }
+          header .phone .phone_con .fl .android:hover {
+            opacity: 0.7; }
+      header .phone .phone_con .qr_code2 {
+        display: block;
+        width: 93px;
+        height: 99px;
+        float: left;
+        background: url("../images/qrCode2.png") no-repeat center; }
+      header .phone .phone_con .con_text {
+        width: 335px;
+        height: 30px; }
+        header .phone .phone_con .con_text .fl1 {
+          display: block;
+          float: left;
+          width: 170px;
+          font: 16px/30px "";
+          text-align: left; }
+        header .phone .phone_con .con_text .fr {
+          display: block;
+          float: right;
+          font: 16px/30px "";
+          width: 110px; }
+    header .phone:hover {
+      background: #fff; }
+      header .phone:hover a {
+        color: #e60012; }
+        header .phone:hover a .icon-sanjiao {
+          color: #a4a4a3; }
+  header .hr {
+    float: right;
+    width: 373px;
+    height: 30px; }
+    header .hr .about_user {
+      float: left;
+      width: 88px;
+      height: 14px;
+      margin-top: 9px;
+      border-right: 1px solid #000;
+      font: 12px/14px ""; }
+      header .hr .about_user .login {
+        float: left; }
+      header .hr .about_user .register {
+        float: left;
+        margin-left: 19px; }
+      header .hr .about_user a {
+        color: red; }
+    header .hr .my {
+      width: 82px;
+      height: 30px;
+      text-indent: 10px;
+      font: 12px/30px "";
+      float: left;
+      margin-left: 10px; }
+      header .hr .my a:hover {
+        color: red; }
+        header .hr .my a:hover .icon-sanjiao {
+          color: #a4a4a3; }
+      header .hr .my .info_con {
+        display: none; }
+      header .hr .my:hover {
+        width: 80px;
+        height: 61px;
+        border: 1px solid #e5e5e5;
+        background: #fff; }
+      header .hr .my:hover .info_con {
+        display: block; }
+    header .hr .my_order {
+      width: 67px;
+      height: 30px;
+      float: left;
+      font: 12px/30px "";
+      margin-left: 10px; }
+      header .hr .my_order:hover a {
+        color: red; }
+    header .hr .notice {
+      width: 57px;
+      height: 30px;
+      float: left;
+      margin-left: 2px;
+      font: 12px/30px "";
+      text-indent: 10px;
+      position: relative; }
+      header .hr .notice .notice_con {
+        background: #fff;
+        display: none;
+        width: 226px;
+        height: 80px;
+        position: absolute;
+        left: -170px;
+        top: 30px;
+        border: 1px solid #e5e5e5;
+        border-top: none;
+        box-sizing: border-box;
+        padding: 14px 0 14px 20px; }
+        header .hr .notice .notice_con .Red a {
+          color: red; }
+        header .hr .notice .notice_con li {
+          height: 20px;
+          font: 12px/12px ""; }
+          header .hr .notice .notice_con li a:hover {
+            color: red; }
+      header .hr .notice:hover {
+        width: 55px;
+        border: 1px solid #e5e5e5;
+        border-bottom: none;
+        background: #fff; }
+        header .hr .notice:hover .notice_con {
+          display: block; }
+    header .hr .more {
+      float: left;
+      width: 55px;
+      height: 30px;
+      font: 12px/30px "";
+      text-align: right; }
+      header .hr .more ul {
+        display: none; }
+      header .hr .more li a:hover {
+        color: red; }
+      header .hr .more:hover {
+        width: 53px;
+        height: 31px;
+        border: 1px solid #e5e5e5;
+        border-bottom: none;
+        background: #fff;
+        position: relative; }
+        header .hr .more:hover .more_con {
+          background: #fff;
+          width: 92px;
+          height: 60px;
+          border: 1px solid #E5E5E5;
+          border-top: none;
+          display: block;
+          position: absolute;
+          left: -38px;
+          top: 30px;
+          padding: 14px 0 14px 20px;
+          box-sizing: border-box; }
+          header .hr .more:hover .more_con li {
+            height: 16px;
+            font: 12px/20px "";
+            text-align: left; }
+
+#tab {
+  height: 166px;
+  background: #f8f8f8;
+  border-bottom: 3px solid #000; }
+  #tab .tab_t {
+    height: 127px; }
+    #tab .tab_t .logo {
+      display: block;
+      float: left;
+      background: url("../images/logo.png") no-repeat center;
+      width: 145px;
+      height: 86px;
+      margin-top: 25px;
+      margin-right: 130px; }
+    #tab .tab_t .tab_t_m {
+      float: left;
+      margin-top: 44px; }
+      #tab .tab_t .tab_t_m .search {
+        width: 524px;
+        height: 30px;
+        border: 2px solid #000;
+        margin-bottom: 12px; }
+        #tab .tab_t .tab_t_m .search #keyword {
+          float: left;
+          width: 439px;
+          height: 30px;
+          border: none; }
+        #tab .tab_t .tab_t_m .search .search_btn {
+          width: 85px;
+          height: 30px;
+          background: #000;
+          float: left;
+          font: 12px/30px "";
+          color: #fff;
+          text-align: center;
+          cursor: pointer; }
+      #tab .tab_t .tab_t_m .search_hot {
+        height: 16px;
+        font: 12px/16px ""; }
+        #tab .tab_t .tab_t_m .search_hot li {
+          float: left; }
+        #tab .tab_t .tab_t_m .search_hot li:nth-child(1) {
+          color: red; }
+        #tab .tab_t .tab_t_m .search_hot li:nth-child(5) {
+          color: red; }
+        #tab .tab_t .tab_t_m .search_hot li:last-child {
+          color: red; }
+    #tab .tab_t .tab_t_r {
+      float: right;
+      margin-top: 43px; }
+      #tab .tab_t .tab_t_r .my_cart {
+        width: 144px;
+        height: 31px;
+        border: 1px solid #e5e5e5;
+        background: #fff;
+        text-align: center;
+        font: 12px/30px ""; }
+        #tab .tab_t .tab_t_r .my_cart .iconfont {
+          color: red; }
+        #tab .tab_t .tab_t_r .my_cart #pordcount {
+          color: red; }
+      #tab .tab_t .tab_t_r .company_name {
+        width: 134px;
+        height: 14px;
+        font: 12px/14px "";
+        text-align: center;
+        color: red;
+        margin-top: 12px;
+        margin-left: 8px; }
+  #tab .tab_b .allGoods {
+    float: left;
+    width: 200px;
+    height: 39px;
+    background: #000;
+    font: 700 18px/39px "";
+    color: #fff;
+    text-align: center; }
+  #tab .tab_b .nav {
+    width: 555px;
+    float: left;
+    display: flex;
+    justify-content: space-around; }
+    #tab .tab_b .nav li {
+      text-align: center;
+      font: 700 17px/39px ""; }
+      #tab .tab_b .nav li a {
+        color: #000; }
+        #tab .tab_b .nav li a:hover {
+          color: red; }
+    #tab .tab_b .nav .te a {
+      color: red; }
+  #tab .tab_b .sales {
+    float: right;
+    height: 39px;
+    margin-right: 15px;
+    font: 700 17px/39px ""; }
+    #tab .tab_b .sales a {
+      color: #000; }
+      #tab .tab_b .sales a:hover {
+        color: red; }
+
+#banner {
+  height: 480px;
+  background: #f8f8f8; }
+  #banner .goodsList {
+    float: left;
+    position: relative;
+    width: 197px;
+    height: 477px;
+    border: 1px solid #d1d3d4;
+    background: #f5f5f5; }
+    #banner .goodsList li {
+      width: 198px;
+      height: 67px;
+      box-sizing: border-box;
+      padding: 15px 21px 0px 12px; }
+      #banner .goodsList li p {
+        margin-bottom: 15px; }
+      #banner .goodsList li p:first-child a {
+        font: 700 12px/12px ""; }
+        #banner .goodsList li p:first-child a:hover {
+          text-decoration: underline; }
+      #banner .goodsList li p:nth-child(2) a:hover {
+        text-decoration: underline; }
+      #banner .goodsList li:hover {
+        background: #666; }
+        #banner .goodsList li:hover a {
+          color: #fff; }
+        #banner .goodsList li:hover i {
+          color: #fff; }
+  #banner #sliderBox {
+    position: relative;
+    overflow: hidden;
+    float: right;
+    width: 990px;
+    height: 480px; }
+    #banner #sliderBox img {
+      display: block;
+      border: none;
+      width: 990px;
+      height: 480px; }
+    #banner #sliderBox #sliderList {
+      position: absolute; }
+      #banner #sliderBox #sliderList li {
+        width: 990px;
+        height: 480px;
+        float: left; }
+    #banner #sliderBox #sliderNav {
+      position: absolute;
+      display: block;
+      right: 45px;
+      bottom: 27px; }
+      #banner #sliderBox #sliderNav li {
+        float: left;
+        width: 22px;
+        height: 22px;
+        margin: 0 6px;
+        background: #000;
+        color: #d4d3d3;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 22px;
+        cursor: pointer; }
+        #banner #sliderBox #sliderNav li:hover {
+          background: red;
+          color: #fff; }
+      #banner #sliderBox #sliderNav .te {
+        background: red;
+        color: #fff; }
+
+#hot_brand {
+  height: 554px;
+  margin-top: 50px; }
+  #hot_brand .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #hot_brand .title .t_l {
+      float: left; }
+      #hot_brand .title .t_l span {
+        font-size: 12px;
+        color: #939598; }
+    #hot_brand .title .t_r {
+      float: right; }
+      #hot_brand .title .t_r a:hover {
+        color: red; }
+  #hot_brand .brand {
+    height: 518px;
+    background: #fff;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border: 1px solid #d1d3d4; }
+    #hot_brand .brand .b_t {
+      height: 320px;
+      margin-bottom: 46px; }
+      #hot_brand .brand .b_t li {
+        width: 267px;
+        height: 320px;
+        float: left;
+        margin-left: 25px; }
+    #hot_brand .brand .b_b {
+      height: 111px;
+      position: relative; }
+      #hot_brand .brand .b_b .b_b_l {
+        float: left;
+        width: 24px;
+        height: 111px;
+        cursor: pointer;
+        margin-left: 25px; }
+      #hot_brand .brand .b_b .brand_list {
+        float: left;
+        width: 1100px;
+        height: 110px;
+        overflow: hidden;
+        position: relative; }
+        #hot_brand .brand .b_b .brand_list #brand_icon {
+          width: 3300px;
+          height: 110px;
+          position: absolute; }
+          #hot_brand .brand .b_b .brand_list #brand_icon li {
+            width: 85px;
+            height: 40px;
+            float: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 12px;
+            margin-right: 12px; }
+      #hot_brand .brand .b_b .b_b_r {
+        width: 24px;
+        height: 111px;
+        cursor: pointer;
+        position: absolute;
+        right: 25px;
+        top: 0; }
+
+#woman_shoes {
+  height: 514px;
+  margin-top: 30px; }
+  #woman_shoes .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #woman_shoes .title .t_l {
+      float: left;
+      color: #000; }
+      #woman_shoes .title .t_l span {
+        font-size: 12px;
+        color: #000; }
+      #woman_shoes .title .t_l a:hover {
+        color: red; }
+    #woman_shoes .title .t_r {
+      float: right;
+      width: 116px;
+      height: 32px;
+      background: #000;
+      text-align: center; }
+      #woman_shoes .title .t_r a {
+        color: #fff; }
+        #woman_shoes .title .t_r a:hover {
+          color: red; }
+  #woman_shoes .woman_product {
+    height: 476px;
+    background: #fff;
+    border: 1px solid #d1d3d4;
+    box-sizing: border-box;
+    padding: 22px 22px 22px 12px; }
+    #woman_shoes .woman_product .woman_l {
+      width: 202px;
+      height: 433px;
+      float: left; }
+      #woman_shoes .woman_product .woman_l .btn {
+        width: 202px;
+        height: 67px;
+        background: #000 url("../images/bg1.png") no-repeat;
+        background-position: 100px 16px; }
+        #woman_shoes .woman_product .woman_l .btn a {
+          color: #fff;
+          font: 14px/67px "";
+          display: block;
+          float: left;
+          margin-left: 26px;
+          margin-right: 26px; }
+      #woman_shoes .woman_product .woman_l .woman_brand {
+        width: 202px;
+        height: 364px;
+        overflow: hidden; }
+        #woman_shoes .woman_product .woman_l .woman_brand li {
+          float: left;
+          width: 100px;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 7.5px 5px;
+          margin-top: 20px; }
+        #woman_shoes .woman_product .woman_l .woman_brand img {
+          width: 80px;
+          height: 40px;
+          display: block; }
+    #woman_shoes .woman_product .woman_m {
+      float: left;
+      width: 360px;
+      height: 430px;
+      border: 1px solid #ddd;
+      margin-left: 12px; }
+    #woman_shoes .woman_product .woman_r {
+      float: left;
+      width: 558px;
+      height: 432px;
+      margin-left: 20px; }
+      #woman_shoes .woman_product .woman_r li {
+        float: left;
+        width: 186px;
+        height: 214px;
+        border-bottom: 2px solid #9b9b9b; }
+        #woman_shoes .woman_product .woman_r li img {
+          width: 186px;
+          height: 214px;
+          display: block; }
+
+#man_shoes {
+  height: 514px;
+  margin-top: 30px; }
+  #man_shoes .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #man_shoes .title .t_l {
+      float: left;
+      color: #000; }
+      #man_shoes .title .t_l span {
+        font-size: 12px;
+        color: #000; }
+      #man_shoes .title .t_l a:hover {
+        color: red; }
+    #man_shoes .title .t_r {
+      float: right;
+      width: 116px;
+      height: 32px;
+      background: #000;
+      text-align: center; }
+      #man_shoes .title .t_r a {
+        color: #fff; }
+        #man_shoes .title .t_r a:hover {
+          color: red; }
+  #man_shoes .man_product {
+    height: 476px;
+    background: #fff;
+    border: 1px solid #d1d3d4;
+    box-sizing: border-box;
+    padding: 22px 22px 22px 12px; }
+    #man_shoes .man_product .man_l {
+      width: 202px;
+      height: 433px;
+      float: left; }
+      #man_shoes .man_product .man_l .btn {
+        width: 202px;
+        height: 67px;
+        background: #000 url("../images/bg1.png") no-repeat;
+        background-position: 100px 16px; }
+        #man_shoes .man_product .man_l .btn a {
+          color: #fff;
+          font: 14px/67px "";
+          display: block;
+          float: left;
+          margin-left: 26px;
+          margin-right: 26px; }
+      #man_shoes .man_product .man_l .man_brand {
+        width: 202px;
+        height: 364px;
+        overflow: hidden; }
+        #man_shoes .man_product .man_l .man_brand li {
+          float: left;
+          width: 100px;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 7.5px 5px;
+          margin-top: 20px; }
+        #man_shoes .man_product .man_l .man_brand img {
+          width: 80px;
+          height: 40px;
+          display: block; }
+    #man_shoes .man_product .man_m {
+      float: left;
+      width: 360px;
+      height: 430px;
+      border: 1px solid #ddd;
+      margin-left: 12px; }
+    #man_shoes .man_product .man_r {
+      float: left;
+      width: 558px;
+      height: 432px;
+      margin-left: 20px; }
+      #man_shoes .man_product .man_r li {
+        float: left;
+        width: 186px;
+        height: 214px;
+        border-bottom: 2px solid #9b9b9b; }
+        #man_shoes .man_product .man_r li img {
+          width: 186px;
+          height: 214px;
+          display: block; }
+
+#sport_shoes {
+  height: 514px;
+  margin-top: 30px; }
+  #sport_shoes .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #sport_shoes .title .t_l {
+      float: left;
+      color: #000; }
+      #sport_shoes .title .t_l span {
+        font-size: 12px;
+        color: #000; }
+      #sport_shoes .title .t_l a:hover {
+        color: red; }
+    #sport_shoes .title .t_r {
+      float: right;
+      width: 116px;
+      height: 32px;
+      background: #000;
+      text-align: center; }
+      #sport_shoes .title .t_r a {
+        color: #fff; }
+        #sport_shoes .title .t_r a:hover {
+          color: red; }
+  #sport_shoes .sport_product {
+    height: 476px;
+    background: #fff;
+    border: 1px solid #d1d3d4;
+    box-sizing: border-box;
+    padding: 22px 22px 22px 12px; }
+    #sport_shoes .sport_product .sport_l {
+      width: 202px;
+      height: 433px;
+      float: left; }
+      #sport_shoes .sport_product .sport_l .btn {
+        width: 202px;
+        height: 67px;
+        background: #000 url("../images/bg1.png") no-repeat;
+        background-position: 100px 16px; }
+        #sport_shoes .sport_product .sport_l .btn a {
+          color: #fff;
+          font: 14px/67px "";
+          display: block;
+          float: left;
+          margin-left: 26px;
+          margin-right: 26px; }
+      #sport_shoes .sport_product .sport_l .sport_brand {
+        width: 202px;
+        height: 364px;
+        overflow: hidden; }
+        #sport_shoes .sport_product .sport_l .sport_brand li {
+          float: left;
+          width: 100px;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 7.5px 5px;
+          margin-top: 20px; }
+        #sport_shoes .sport_product .sport_l .sport_brand img {
+          width: 80px;
+          height: 40px;
+          display: block; }
+    #sport_shoes .sport_product .sport_m {
+      float: left;
+      width: 360px;
+      height: 430px;
+      border: 1px solid #ddd;
+      margin-left: 12px; }
+    #sport_shoes .sport_product .sport_r {
+      float: left;
+      width: 558px;
+      height: 432px;
+      margin-left: 20px; }
+      #sport_shoes .sport_product .sport_r li {
+        float: left;
+        width: 186px;
+        height: 214px;
+        border-bottom: 2px solid #9b9b9b; }
+        #sport_shoes .sport_product .sport_r li img {
+          width: 186px;
+          height: 214px;
+          display: block; }
+
+#out_shoes {
+  height: 514px;
+  margin-top: 30px; }
+  #out_shoes .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #out_shoes .title .t_l {
+      float: left;
+      color: #000; }
+      #out_shoes .title .t_l span {
+        font-size: 12px;
+        color: #000; }
+      #out_shoes .title .t_l a:hover {
+        color: red; }
+    #out_shoes .title .t_r {
+      float: right;
+      width: 116px;
+      height: 32px;
+      background: #000;
+      text-align: center; }
+      #out_shoes .title .t_r a {
+        color: #fff; }
+        #out_shoes .title .t_r a:hover {
+          color: red; }
+  #out_shoes .sport_product {
+    height: 476px;
+    background: #fff;
+    border: 1px solid #d1d3d4;
+    box-sizing: border-box;
+    padding: 22px 22px 22px 12px; }
+    #out_shoes .sport_product .sport_l {
+      width: 202px;
+      height: 433px;
+      float: left; }
+      #out_shoes .sport_product .sport_l .btn {
+        width: 202px;
+        height: 67px;
+        background: #000 url("../images/bg1.png") no-repeat 64px 16px; }
+        #out_shoes .sport_product .sport_l .btn a {
+          color: #fff;
+          font: 14px/67px "";
+          display: block;
+          float: left;
+          margin-left: 12px;
+          margin-right: 12px; }
+        #out_shoes .sport_product .sport_l .btn img {
+          display: block;
+          float: left;
+          margin-top: 17px; }
+      #out_shoes .sport_product .sport_l .out_brand {
+        width: 202px;
+        height: 364px;
+        overflow: hidden; }
+        #out_shoes .sport_product .sport_l .out_brand li {
+          float: left;
+          width: 100px;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 7.5px 5px;
+          margin-top: 20px; }
+        #out_shoes .sport_product .sport_l .out_brand img {
+          width: 80px;
+          height: 40px;
+          display: block; }
+    #out_shoes .sport_product .sport_m {
+      float: left;
+      width: 360px;
+      height: 430px;
+      border: 1px solid #ddd;
+      margin-left: 12px; }
+    #out_shoes .sport_product .sport_r {
+      float: left;
+      width: 558px;
+      height: 432px;
+      margin-left: 20px; }
+      #out_shoes .sport_product .sport_r li {
+        float: left;
+        width: 186px;
+        height: 214px;
+        border-bottom: 2px solid #9b9b9b; }
+        #out_shoes .sport_product .sport_r li img {
+          width: 186px;
+          height: 214px;
+          display: block; }
+
+#global_shoes {
+  height: 514px;
+  margin-top: 30px; }
+  #global_shoes .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #global_shoes .title .t_l {
+      float: left;
+      color: #000; }
+      #global_shoes .title .t_l span {
+        font-size: 12px;
+        color: #000; }
+      #global_shoes .title .t_l a:hover {
+        color: red; }
+    #global_shoes .title .t_r {
+      float: right;
+      width: 116px;
+      height: 32px;
+      background: #000;
+      text-align: center; }
+      #global_shoes .title .t_r a {
+        color: #fff; }
+        #global_shoes .title .t_r a:hover {
+          color: red; }
+  #global_shoes .sport_product {
+    height: 476px;
+    background: #fff;
+    border: 1px solid #d1d3d4;
+    box-sizing: border-box;
+    padding: 22px 22px 22px 12px; }
+    #global_shoes .sport_product .sport_l {
+      width: 202px;
+      height: 433px;
+      float: left; }
+      #global_shoes .sport_product .sport_l .btn {
+        width: 202px;
+        height: 67px;
+        background: #000 url("../images/bg1.png") no-repeat 64px 16px; }
+        #global_shoes .sport_product .sport_l .btn a {
+          color: #fff;
+          font: 14px/67px "";
+          display: block;
+          float: left;
+          margin-left: 12px;
+          margin-right: 12px; }
+        #global_shoes .sport_product .sport_l .btn img {
+          display: block;
+          float: left;
+          margin-top: 17px; }
+      #global_shoes .sport_product .sport_l .global_brand {
+        width: 202px;
+        height: 364px;
+        overflow: hidden; }
+        #global_shoes .sport_product .sport_l .global_brand li {
+          float: left;
+          width: 100px;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 7.5px 5px;
+          margin-top: 20px; }
+        #global_shoes .sport_product .sport_l .global_brand img {
+          width: 80px;
+          height: 40px;
+          display: block; }
+    #global_shoes .sport_product .sport_m {
+      float: left;
+      width: 360px;
+      height: 430px;
+      border: 1px solid #ddd;
+      margin-left: 12px; }
+    #global_shoes .sport_product .sport_r {
+      float: left;
+      width: 558px;
+      height: 432px;
+      margin-left: 20px; }
+      #global_shoes .sport_product .sport_r li {
+        float: left;
+        width: 186px;
+        height: 214px;
+        border-bottom: 2px solid #9b9b9b; }
+        #global_shoes .sport_product .sport_r li img {
+          width: 186px;
+          height: 214px;
+          display: block; }
+
+#cloth_shoes {
+  height: 514px;
+  margin-top: 30px; }
+  #cloth_shoes .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #cloth_shoes .title .t_l {
+      float: left;
+      color: #000; }
+      #cloth_shoes .title .t_l span {
+        font-size: 12px;
+        color: #000; }
+      #cloth_shoes .title .t_l a:hover {
+        color: red; }
+    #cloth_shoes .title .t_r {
+      float: right;
+      width: 116px;
+      height: 32px;
+      background: #000;
+      text-align: center; }
+      #cloth_shoes .title .t_r a {
+        color: #fff; }
+        #cloth_shoes .title .t_r a:hover {
+          color: red; }
+  #cloth_shoes .sport_product {
+    height: 476px;
+    background: #fff;
+    border: 1px solid #d1d3d4;
+    box-sizing: border-box;
+    padding: 22px 22px 22px 12px; }
+    #cloth_shoes .sport_product .sport_l {
+      width: 202px;
+      height: 433px;
+      float: left; }
+      #cloth_shoes .sport_product .sport_l .btn {
+        width: 202px;
+        height: 67px;
+        background: #000 url("../images/bg1.png") no-repeat 64px 16px; }
+        #cloth_shoes .sport_product .sport_l .btn a {
+          color: #fff;
+          font: 14px/67px "";
+          display: block;
+          float: left;
+          margin-left: 12px;
+          margin-right: 12px; }
+        #cloth_shoes .sport_product .sport_l .btn img {
+          display: block;
+          float: left;
+          margin-top: 17px; }
+      #cloth_shoes .sport_product .sport_l .cloth_brand {
+        width: 202px;
+        height: 364px;
+        overflow: hidden; }
+        #cloth_shoes .sport_product .sport_l .cloth_brand li {
+          float: left;
+          width: 100px;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 7.5px 5px;
+          margin-top: 20px; }
+        #cloth_shoes .sport_product .sport_l .cloth_brand img {
+          width: 80px;
+          height: 40px;
+          display: block; }
+    #cloth_shoes .sport_product .sport_m {
+      float: left;
+      width: 360px;
+      height: 430px;
+      border: 1px solid #ddd;
+      margin-left: 12px; }
+    #cloth_shoes .sport_product .sport_r {
+      float: left;
+      width: 558px;
+      height: 432px;
+      margin-left: 20px; }
+      #cloth_shoes .sport_product .sport_r li {
+        float: left;
+        width: 186px;
+        height: 214px;
+        border-bottom: 2px solid #9b9b9b; }
+        #cloth_shoes .sport_product .sport_r li img {
+          width: 186px;
+          height: 214px;
+          display: block; }
+
+#children_shoes {
+  height: 514px;
+  margin-top: 30px; }
+  #children_shoes .title {
+    height: 32px;
+    width: 100%;
+    font: 17px/32px "";
+    border-bottom: 3px solid #000; }
+    #children_shoes .title .t_l {
+      float: left;
+      color: #000; }
+      #children_shoes .title .t_l span {
+        font-size: 12px;
+        color: #000; }
+      #children_shoes .title .t_l a:hover {
+        color: red; }
+    #children_shoes .title .t_r {
+      float: right;
+      width: 116px;
+      height: 32px;
+      background: #000;
+      text-align: center; }
+      #children_shoes .title .t_r a {
+        color: #fff; }
+        #children_shoes .title .t_r a:hover {
+          color: red; }
+  #children_shoes .sport_product {
+    height: 476px;
+    background: #fff;
+    border: 1px solid #d1d3d4;
+    box-sizing: border-box;
+    padding: 22px 22px 22px 12px; }
+    #children_shoes .sport_product .sport_l {
+      width: 202px;
+      height: 433px;
+      float: left; }
+      #children_shoes .sport_product .sport_l .btn {
+        width: 202px;
+        height: 67px;
+        background: #000 url("../images/bg1.png") no-repeat 64px 16px; }
+        #children_shoes .sport_product .sport_l .btn a {
+          color: #fff;
+          font: 14px/67px "";
+          display: block;
+          float: left;
+          margin-left: 12px;
+          margin-right: 12px; }
+        #children_shoes .sport_product .sport_l .btn img {
+          display: block;
+          float: left;
+          margin-top: 17px; }
+      #children_shoes .sport_product .sport_l .children_brand {
+        width: 202px;
+        height: 364px;
+        overflow: hidden; }
+        #children_shoes .sport_product .sport_l .children_brand li {
+          float: left;
+          width: 100px;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 7.5px 5px;
+          margin-top: 20px; }
+        #children_shoes .sport_product .sport_l .children_brand img {
+          width: 80px;
+          height: 40px;
+          display: block; }
+    #children_shoes .sport_product .sport_m {
+      float: left;
+      width: 360px;
+      height: 430px;
+      border: 1px solid #ddd;
+      margin-left: 12px; }
+    #children_shoes .sport_product .sport_r {
+      float: left;
+      width: 558px;
+      height: 432px;
+      margin-left: 20px; }
+      #children_shoes .sport_product .sport_r li {
+        float: left;
+        width: 186px;
+        height: 214px;
+        border-bottom: 2px solid #9b9b9b; }
+        #children_shoes .sport_product .sport_r li img {
+          width: 186px;
+          height: 214px;
+          display: block; }
+
+#on_sales {
+  height: 396px;
+  margin-top: 30px;
+  overflow: hidden; }
+  #on_sales .title {
+    height: 34px;
+    font: 17px/34px "";
+    border-bottom: 3px solid #000; }
+  #on_sales .sales_list {
+    height: 358px;
+    border: 1px solid #d1d3d4;
+    background: #fff; }
+    #on_sales .sales_list .nav {
+      width: 212px;
+      height: 319px;
+      float: left; }
+      #on_sales .sales_list .nav li {
+        width: 212px;
+        height: 39px;
+        border-right: 1px solid #d1d3d4;
+        border-bottom: 1px solid #d1d3d4;
+        font: 12px/39px "";
+        position: relative;
+        text-indent: 14px; }
+        #on_sales .sales_list .nav li i {
+          visibility: hidden;
+          position: absolute;
+          right: 13px; }
+        #on_sales .sales_list .nav li:hover {
+          background: #000;
+          color: #fff; }
+          #on_sales .sales_list .nav li:hover i {
+            visibility: visible; }
+      #on_sales .sales_list .nav .te {
+        background: #000;
+        color: #fff; }
+        #on_sales .sales_list .nav .te i {
+          visibility: visible; }
+    #on_sales .sales_list .sales_r {
+      float: right; }
+      #on_sales .sales_list .sales_r .product_list {
+        display: none;
+        width: 974px;
+        height: 360px;
+        box-sizing: border-box;
+        padding: 20px 0px 21px 11px; }
+        #on_sales .sales_list .sales_r .product_list li {
+          float: left;
+          margin-right: 6px;
+          width: 232px;
+          height: 312px; }
+          #on_sales .sales_list .sales_r .product_list li img {
+            display: block;
+            width: 230px;
+            height: 238px;
+            border: 1px solid #d1d3d4; }
+          #on_sales .sales_list .sales_r .product_list li div {
+            width: 232px;
+            height: 16px;
+            background: #f0a1a1;
+            font: 12px/16px "";
+            text-indent: 6px;
+            color: #fff; }
+          #on_sales .sales_list .sales_r .product_list li p {
+            width: 232px;
+            height: 44px;
+            font: 12px/22px "";
+            padding-left: 6px;
+            box-sizing: border-box; }
+            #on_sales .sales_list .sales_r .product_list li p:hover {
+              color: red; }
+          #on_sales .sales_list .sales_r .product_list li span {
+            display: block;
+            color: red;
+            height: 13px;
+            width: 77px;
+            text-indent: 6px; }
+            #on_sales .sales_list .sales_r .product_list li span i {
+              display: block;
+              float: right;
+              color: #aaa;
+              text-decoration: line-through; }
+
+#guide {
+  height: 500px;
+  margin-top: 66px; }
+  #guide .title {
+    background: #fff;
+    height: 25px;
+    border-bottom: 3px solid #808080;
+    font: 16px/25px "";
+    text-indent: 8px; }
+  #guide .guide {
+    background: #fff;
+    height: 272px;
+    box-sizing: border-box;
+    padding-top: 18px; }
+    #guide .guide .la {
+      width: 54px;
+      height: 244px;
+      cursor: pointer;
+      float: left;
+      background: url("../images/la.png") no-repeat 11px 111px; }
+    #guide .guide .ra {
+      width: 54px;
+      height: 244px;
+      cursor: pointer;
+      float: right;
+      background: url("../images/ra.png") no-repeat 11px 111px; }
+    #guide .guide .guidebrandshow {
+      float: left;
+      width: 1080px;
+      height: 244px;
+      border-left: 1px solid #e8e8e8;
+      border-top: 1px solid #e8e8e8;
+      background: #e8e8e8;
+      overflow: hidden;
+      position: relative; }
+      #guide .guide .guidebrandshow .move1 {
+        height: 488px;
+        position: absolute; }
+      #guide .guide .guidebrandshow li {
+        width: 89px;
+        height: 60px;
+        border-right: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        float: left;
+        position: relative;
+        background: #fff; }
+        #guide .guide .guidebrandshow li img {
+          display: block;
+          width: 85px;
+          height: 40px;
+          position: absolute;
+          left: 2px;
+          top: 4px; }
+        #guide .guide .guidebrandshow li p {
+          position: absolute;
+          left: 10px;
+          top: 40px;
+          font: 9px/10px "";
+          color: #a599b2;
+          text-align: center; }
+        #guide .guide .guidebrandshow li:hover p {
+          color: red; }
+  #guide .buy_link {
+    height: 203px;
+    background: #fff; }
+    #guide .buy_link li {
+      float: left;
+      width: 520px;
+      height: 43px;
+      border-bottom: 1px dashed #e8e8e8;
+      margin-left: 37px;
+      margin-right: 35px; }
+      #guide .buy_link li dd, #guide .buy_link li dt, #guide .buy_link li a {
+        float: left; }
+        #guide .buy_link li dd:hover, #guide .buy_link li dt:hover, #guide .buy_link li a:hover {
+          color: red; }
+      #guide .buy_link li dd {
+        font: 700 12px/43px ""; }
+      #guide .buy_link li dt {
+        font: 12px/43px "";
+        margin-left: 28px; }
+        #guide .buy_link li dt a {
+          margin-right: 20px; }
+      #guide .buy_link li .more {
+        float: right;
+        font: 12px/43px ""; }
+
+#footer {
+  background: #f4f4f4;
+  height: 206px;
+  margin-top: 10px;
+  border: 1px solid #ececec; }
+  #footer .hd {
+    margin-top: 8px;
+    width: 1188px;
+    height: 46px;
+    border: 1px solid #ddd; }
+    #footer .hd a {
+      margin-left: 105px;
+      font: 700 16px/33px "";
+      display: block;
+      float: left;
+      height: 33px;
+      margin-top: 8px; }
+      #footer .hd a i {
+        margin-left: 42px;
+        color: red; }
+      #footer .hd a:hover {
+        color: red; }
+    #footer .hd a:nth-child(1) {
+      background: url("../images/hd1.png") no-repeat left; }
+    #footer .hd a:nth-child(2) {
+      background: url("../images/hd2.png") no-repeat left; }
+    #footer .hd a:nth-child(3) {
+      background: url("../images/hd3.png") no-repeat left; }
+    #footer .hd a:nth-child(4) {
+      background: url("../images/hd4.png") no-repeat left; }
+  #footer .hb {
+    margin-top: 16px; }
+    #footer .hb dl {
+      float: left;
+      width: 150px; }
+      #footer .hb dl dt {
+        font: 700 12px/22px ""; }
+      #footer .hb dl dd {
+        font: 12px/22px ""; }
+        #footer .hb dl dd a:hover {
+          color: red; }
+      #footer .hb dl em {
+        color: red; }
+    #footer .hb .help {
+      width: 165px; }
+      #footer .hb .help span {
+        background: url("../images/msg.png") no-repeat left; }
+    #footer .hb .qr_code {
+      width: 240px;
+      margin-left: 20px; }
+      #footer .hb .qr_code .app {
+        width: 115px;
+        float: left; }
+        #footer .hb .qr_code .app a {
+          display: block;
+          width: 114px;
+          height: 103px;
+          background: url("../images/footer-mobile-qrcode.jpg") no-repeat center; }
+      #footer .hb .qr_code .weixin {
+        width: 115px;
+        height: 103px;
+        float: left;
+        background: url("../images/footer-wechat-img.png") no-repeat center; }
+
+#foot_info {
+  height: 106px;
+  background: #000; }
+  #foot_info .logo {
+    float: left;
+    padding-top: 30px; }
+  #foot_info .foot_r {
+    float: right;
+    text-align: right; }
+    #foot_info .foot_r .foot_r_t {
+      font: 12px/20px "";
+      color: #fff; }
+      #foot_info .foot_r .foot_r_t a {
+        color: #fff; }
+    #foot_info .foot_r .foot_r_c {
+      font: 12px/20px "";
+      color: #fff; }
+      #foot_info .foot_r .foot_r_c a {
+        color: #fff; }
+      #foot_info .foot_r .foot_r_c .safe {
+        background: url("../images/safe.png") no-repeat left; }
+    #foot_info .foot_r .foot_r_b {
+      padding-top: 10px; }
+      #foot_info .foot_r .foot_r_b img {
+        width: 108px;
+        height: 40px; }
+
+#aside1 {
+  width: 38px;
+  height: 340px;
+  position: fixed;
+  top: 259px;
+  right: 38px;
+  background: url("../images/1205.png") no-repeat center; }
+  #aside1 ul {
+    width: 38px;
+    height: 229px; }
+    #aside1 ul li {
+      height: 38px;
+      width: 38px;
+      cursor: pointer; }
+  #aside1 a {
+    display: block;
+    width: 38px;
+    height: 38px; }
+
+#hide {
+  width: 148px;
+  height: 479px;
+  border: 1px solid #d1d3d4;
+  background: #fff;
+  position: absolute;
+  left: 198px;
+  top: 0;
+  z-index: 5;
+  padding: 9px 13px 0px 15px;
+  box-sizing: border-box;
+  display: none; }
+  #hide div {
+    overflow: hidden; }
+    #hide div a:first-child {
+      float: left;
+      width: 120px;
+      height: 18px;
+      background: #eee;
+      text-align: center;
+      font: 700 12px/18px "";
+      cursor: pointer; }
+    #hide div a {
+      float: left;
+      height: 20px;
+      font: 12px/20px "";
+      width: 58px;
+      text-align: center; }
+      #hide div a:hover {
+        color: red; }
+
+/*# sourceMappingURL=index.css.map */
