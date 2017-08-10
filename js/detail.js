@@ -179,7 +179,9 @@ $(function () {
                     }
                 }
             }
-
+            $(".btn").find("input").eq(0).click(function () {
+                window.location="cart.html";
+            })
            $(".btn").find("input").eq(1).click(function () {
 
                //设定nm值
