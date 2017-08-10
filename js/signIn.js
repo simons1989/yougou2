@@ -36,6 +36,8 @@ $(function() {
             }
         }
     )
+
+    var flag=false;
     $(".signIn_submit").click(function () {
          if($("#account_input").val()==""){
              $(".account_check").html("<img src='images/wrong.png'>请输入账号");
@@ -47,10 +49,9 @@ $(function() {
 
              $(".sign_pwd").css("border-color", "red");
          }
-         //补写账户密码匹配后登陆成功的部分
-        var name=$("#account_input").val();
-        var psd=$("#sign_pwd_input").val();
-        $.ajax({
+
+
+     /*   $.ajax({
             type: "POST",
             url: "common.php",
             //向接口传参
@@ -65,7 +66,29 @@ $(function() {
                 }
 
             }
-        });
+        });*/
+        //利用cookie登陆验证
+            var name=$("#account_input").val();
+            var psd=$("#sign_pwd_input").val();
+            var str8 = getCookie("sign");//字符串
+            if(str8!=undefined){
+                var obj8 = JSON.parse(str8);//json格式的字符串转对象
+            }
+            for(var i in obj8){
+                if(name==obj8[i].name && psd==obj8[i].psw){
+                   alert("登录成功");
+                    window.location="index.html";
+                    flag=true;
+                }else{
+                    flag=false;
+                }
+            }
+
+            if(flag==false){
+                alert("登录错误,用户名或密码错误");
+                window.location="register.html";
+            }
+
 
 
 

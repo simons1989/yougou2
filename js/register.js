@@ -170,6 +170,8 @@ $(function() {
 
 
     //提交
+    var pass=[];
+        var flag=true;
     $("#submit_btn").click(function () {
 
         if ($('.read').is(':checked')) {
@@ -212,7 +214,7 @@ $(function() {
             /^[\w|\W]{6,25}$/.test(strPwd) &&
             strPwdCon == strPwd){
 
-            //ajax请求后台数据
+         /*   //ajax请求后台数据
             var name=$(".phone_number").val();
             var psd=$("#pwd_input").val();
             $.ajax({
@@ -232,8 +234,31 @@ $(function() {
                         //console.log(num);
                     }
                 }
-            });
-            //return num=0;
+            });*/
+           //cookie注册
+            var name=$(".phone_number").val();
+            var psd=$("#pwd_input").val();
+            var info={"name":name,"psw":psd}
+
+            var str = getCookie("sign");//字符串
+            if(str!=undefined){
+                var obj8 = JSON.parse(str);//json格式的字符串转对象
+            }
+            for(var i in obj8){
+                if(name==obj8[i].name){
+                    alert("用户已存在");
+                   flag=false;
+                }else{
+                    flag=true;
+                }
+            }
+            if(flag==true){
+                pass.push(info);
+                var strCookie=JSON.stringify(pass);
+                setCookie("sign",strCookie,7);
+                alert("注册成功");
+                window.location="signIn.html";
+            }
 
         }
 
