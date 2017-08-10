@@ -70,7 +70,7 @@ $(function(){
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //左右箭头控制品牌栏移动
@@ -109,7 +109,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //女鞋馆商品展示列表
@@ -128,7 +128,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 
@@ -148,7 +148,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //男鞋展示json
@@ -167,7 +167,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //运动鞋品牌json
@@ -186,7 +186,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //运动鞋展示json
@@ -205,7 +205,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //户外品牌json
@@ -224,7 +224,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //户外展示json
@@ -243,7 +243,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //国际品牌展示
@@ -262,7 +262,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //国际鞋服json
@@ -281,7 +281,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 
@@ -301,7 +301,7 @@ $(".b_b_l").click(function () {
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 
@@ -322,7 +322,7 @@ $.ajax({
 
 
     }, error: function () {
-        alert("加载失败");
+        console.log("加载失败");
     }
 });
 //小孩品牌
@@ -341,7 +341,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //小孩产品展示
@@ -360,7 +360,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 
@@ -388,7 +388,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
     //sportjson
@@ -408,7 +408,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //shoejson
@@ -428,7 +428,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
     //manjson
@@ -448,7 +448,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //womanjson
@@ -468,7 +468,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //childrenjson
@@ -488,7 +488,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //boxjson
@@ -508,7 +508,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
     //guidejson
@@ -528,7 +528,7 @@ $.ajax({
 
 
         }, error: function () {
-            alert("加载失败");
+            console.log("加载失败");
         }
     });
 //guide左右按键
