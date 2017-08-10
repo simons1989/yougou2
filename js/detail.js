@@ -141,10 +141,11 @@ $(function () {
                                 break;
                         }
                 })
-            var s=0;
+           var s=0
             $(".size1").find("span").click(function () {
                 $(this).css({"color":"red","border-color":"red"}).siblings().css({"color":"#000","border-color":"#ddd"});
-                 s=$(this).index();
+                  s=$(this).index()-1;
+                  console.log(s);
             })
 
             var x=1;

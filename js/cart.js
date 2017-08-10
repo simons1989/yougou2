@@ -142,9 +142,20 @@ $(function () {
                 newObj.push(obj1[i]);
             }
         }
-        console.log(newObj);
-        var str2=JSON.stringify(newObj);
-         setCookie("cart",str2,7);
+
+        if(newObj.length==0){
+            removeCookie("cart");
+            $("#main_cart").html("你的购物车没有商品");
+        }else{
+            var str2=JSON.stringify(newObj);
+            setCookie("cart",str2,7);
+        }
+
+
+
+
+
+
 
 
        $("#main_cart").find("li").each(function () {
@@ -175,8 +186,13 @@ $(function () {
                    var str2 = getCookie("cart");//字符串
                    var obj2 = JSON.parse(str);//json格式的字符串转对象
                    obj2.splice(index,1);
-                   var str3=JSON.stringify(obj2);
-                   setCookie("cart",str3,7);
+                   if(obj2.length==0){
+                       removeCookie("cart");
+                       $("#main_cart").html("你的购物车没有商品");
+                   }else{
+                       var str2=JSON.stringify(obj2);
+                       setCookie("cart",str2,7);
+                   }
                }
 
            }else{
