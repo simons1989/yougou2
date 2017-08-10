@@ -287,7 +287,7 @@ $(function () {
         }, 1000);
     }
 
-    countDown("2017/8/15 11:11:59","#colockbox1");
+    countDown("2017/9/15 11:11:59","#colockbox1");
 
 
 

@@ -105,8 +105,14 @@ $(function () {
             var str1 = getCookie("cart");//字符串
             var obj1 = JSON.parse(str);//json格式的字符串转对象
             obj1.splice(index,1);
-            var str2=JSON.stringify(obj1);
-            setCookie("cart",str2,7);
+            if(obj1.length==0){
+                removeCookie("cart");
+                $("#main_cart").html("你的购物车没有商品");
+            }else{
+                var str2=JSON.stringify(obj1);
+                setCookie("cart",str2,7);
+            }
+
         })
 
     })
