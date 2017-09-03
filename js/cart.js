@@ -174,7 +174,7 @@ $(function () {
     $("#main_cart").find("li").each(function () {
         $(this).find("dd").eq(0).click(function () {
 
-            var index=$(this).parent().parent().index();
+            var index=$(this).parent().index();
             var x=$(this).siblings("input").eq(1).val();
            if(x<=1){
                var r=confirm("确定删除此商品吗");
