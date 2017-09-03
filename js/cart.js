@@ -218,7 +218,7 @@ $(function () {
             total();
 
             var str2 = getCookie("cart");//字符串
-            var obj2 = JSON.parse(str);//json格式的字符串转对象
+            var obj2 = JSON.parse(str2);//json格式的字符串转对象
            obj2[index].num=x;
             var str3=JSON.stringify(obj2);
             setCookie("cart",str3,7);
